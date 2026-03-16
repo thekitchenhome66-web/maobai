@@ -1,42 +1,95 @@
 body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#ffffff;
+
+margin:0;
+font-family:Arial;
+background:#ffffff;
+text-align:center;
+
 }
 
-.header{
-    background:#0f2f1f;
-    color:white;
-    padding:20px;
-    text-align:center;
-    font-size:24px;
+.logo{
+
+font-size:28px;
+font-weight:bold;
+color:#1f5e3a;
+padding:20px;
+
 }
 
-.button{
-    background:#3fa66b;
-    color:white;
-    padding:12px 20px;
-    border:none;
-    border-radius:8px;
-    font-size:16px;
-    cursor:pointer;
+.hero{
+
+padding:20px;
+
 }
 
-.button:hover{
-    background:#2d7f4e;
+.hero-img{
+
+width:260px;
+margin-top:20px;
+
 }
 
-.container{
-    max-width:420px;
-    margin:auto;
-    padding:20px;
+h1{
+
+font-size:28px;
+color:#333;
+margin-top:30px;
+
 }
 
-input{
-    width:100%;
-    padding:12px;
-    margin-top:10px;
-    margin-bottom:20px;
-    border-radius:6px;
-    border:1px solid #ddd;
+p{
+
+color:#777;
+font-size:16px;
+padding:0 30px;
+
+}
+
+.primary-btn{
+
+width:90%;
+max-width:350px;
+
+background:#58cc02;
+color:white;
+
+border:none;
+
+padding:16px;
+
+border-radius:16px;
+
+font-size:18px;
+
+margin-top:30px;
+
+box-shadow:0 5px #3fa000;
+
+}
+
+.primary-btn:active{
+
+transform:translateY(3px);
+box-shadow:0 2px #3fa000;
+
+}
+
+.secondary-btn{
+
+width:90%;
+max-width:350px;
+
+background:white;
+color:#1cb0f6;
+
+border:2px solid #e5e5e5;
+
+padding:16px;
+
+border-radius:16px;
+
+font-size:16px;
+
+margin-top:15px;
+
 }
